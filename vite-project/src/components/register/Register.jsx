@@ -1,4 +1,5 @@
 import React from "react";
+import Input from "../input/input"
 
 function Register() {
   return (
@@ -6,24 +7,19 @@ function Register() {
       <div className="bg-white p-6 w-80">
         <h2 className="text-xl text-center mb-4">Register</h2>
 
-        <input
-          type="text"
-          placeholder="Name"
-          className="border w-full p-2 mb-2"
-        />
+        <div>
+        <Input lableName="Name" type = "text" placeholder="Enter the name"/>
+        </div>
 
-        <input
-          type="email"
-          placeholder="Email"
-          className="border w-full p-2 mb-2"
-        />
+        <div>
+            <Input lableName="Email:" type="email" placeholder="Enter your email:"/>
+           </div>
 
-        <input
-          type="password"
-          placeholder="Password"
-          className="border w-full p-2 mb-4"
-        />
+            <div>
+            <Input lableName="Password:" type="pwd" placeholder="Enter password"/>
+           </div>
 
+        
         <button className="bg-blue-500 text-white w-full p-2">
           Register
         </button>
