@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "../input/input";
+import Input from "../input/Input";
 
 function Login(){
     return(
@@ -9,7 +9,7 @@ function Login(){
 
         
         <Input labelName="Email" type="email" placeholder="Enter your email" />
-
+        
         
         <Input labelName="Password" type="password" placeholder="Enter your password" />
 
@@ -24,8 +24,8 @@ function Login(){
         </div>
       </div>
      
-
+ 
 
     );
 }
-export default Login();
+export default Login;
